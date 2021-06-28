@@ -19,6 +19,7 @@
     "gatsby-plugin-mdx": "2.7.1",
     "gatsby-plugin-offline": "4.7.1",
     "gatsby-plugin-react-helmet": "4.7.1",
+    "gatsby-plugin-robots-txt": "^1.6.8",
     "gatsby-plugin-sharp": "3.7.1",
     "gatsby-remark-images": "5.4.1",
     "gatsby-source-filesystem": "3.7.1",

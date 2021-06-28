@@ -159,5 +159,20 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.codeursenseine.com",
+        sitemap: "https://www.codeursenseine.com/sitemap.xml",
+        env: {
+            development: {
+                policy: [{ userAgent: '*', disallow: ['/'] }]
+            },
+            production: {
+                policy: [{ userAgent: '*', allow: '/' }]
+            }
+        }
+      },
+    },
   ],
 };
